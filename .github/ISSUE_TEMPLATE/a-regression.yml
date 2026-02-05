@@ -13,7 +13,7 @@ body:
       label: Is there an existing issue for this?
       description: Please search to see if an issue already exists for this regression.
       options:
-        - label: I have searched the [existing issues](https://github.com/baseflow/flutter-geolocator/issues).
+        - label: I have searched the [existing issues](https://github.com/baseflow/flutter-geolocator_floss/issues).
           required: true
   - type: checkboxes
     attributes:

@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: geolocator_platform_interface
+name: geolocator_floss_platform_interface
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the main branch
@@ -8,13 +8,13 @@ on:
   push:
     branches: [ main ]
     paths:
-    - 'geolocator_platform_interface/**'
-    - '.github/workflows/geolocator_platform_interface.yaml'
+    - 'geolocator_floss_platform_interface/**'
+    - '.github/workflows/geolocator_floss_platform_interface.yaml'
   pull_request:
     branches: [ main ]
     paths:
-    - 'geolocator_platform_interface/**'
-    - '.github/workflows/geolocator_platform_interface.yaml'
+    - 'geolocator_floss_platform_interface/**'
+    - '.github/workflows/geolocator_floss_platform_interface.yaml'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -25,7 +25,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      source-directory: ./geolocator_platform_interface 
+      source-directory: ./geolocator_floss_platform_interface
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:

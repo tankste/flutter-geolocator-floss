@@ -1,5 +1,5 @@
 name: Report a bug
-description: You encountered a bug in the geolocator plugin resulting in application crashes, compilation errors or invalid/unexpected results.
+description: You encountered a bug in the geolocator_floss plugin resulting in application crashes, compilation errors or invalid/unexpected results.
 title: "[Bug]: "
 labels: ["needs-triage"]
 body:
@@ -13,8 +13,8 @@ body:
     attributes:
       label: Please check the following before submitting a new issue.
       options:
-      - label: I have searched the [existing issues](https://github.com/baseflow/flutter-geolocator/issues).
-      - label: I have carefully [read the documentation](https://github.com/Baseflow/flutter-geolocator/blob/main/geolocator/README.md) and verified I have added the required platform specific configuration.
+      - label: I have searched the [existing issues](https://github.com/baseflow/flutter-geolocator_floss/issues).
+      - label: I have carefully [read the documentation](https://github.com/Baseflow/flutter-geolocator_floss/blob/main/geolocator_floss/README.md) and verified I have added the required platform specific configuration.
         required: true
   - type: checkboxes
     attributes:

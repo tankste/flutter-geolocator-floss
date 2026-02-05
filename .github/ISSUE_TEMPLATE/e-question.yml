@@ -1,5 +1,5 @@
 name: Ask for help
-description: You have a question about the geolocator plugin and are looking for help.
+description: You have a question about the geolocator_floss plugin and are looking for help.
 title: "[Question]: "
 labels: ["needs-triage"]
 body:
@@ -12,9 +12,9 @@ body:
     attributes:
       label: Please check the following before submitting a new issue.
       options:
-        - label: I have searched the [existing issues](https://github.com/baseflow/flutter-geolocator/issues).
+        - label: I have searched the [existing issues](https://github.com/baseflow/flutter-geolocator_floss/issues).
           required: true
-        - label: I have carefully [read the documentation](https://github.com/baseflow/flutter-geolocator/blob/main/geolocator/README.md).
+        - label: I have carefully [read the documentation](https://github.com/baseflow/flutter-geolocator_floss/blob/main/geolocator_floss/README.md).
           required: true
   - type: checkboxes
     attributes:

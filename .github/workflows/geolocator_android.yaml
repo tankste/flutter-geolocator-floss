@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: geolocator_android
+name: geolocator_floss_android
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the main branch
@@ -8,13 +8,13 @@ on:
   push:
     branches: [ main ]
     paths:
-    - 'geolocator_android/**'
-    - '.github/workflows/geolocator_android.yaml'
+    - 'geolocator_floss_android/**'
+    - '.github/workflows/geolocator_floss_android.yaml'
   pull_request:
     branches: [ main ]
     paths:
-    - 'geolocator_android/**'
-    - '.github/workflows/geolocator_android.yaml'
+    - 'geolocator_floss_android/**'
+    - '.github/workflows/geolocator_floss_android.yaml'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -25,8 +25,8 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      source-directory: ./geolocator_android
-      example-directory: ./geolocator_android/example 
+      source-directory: ./geolocator_floss_android
+      example-directory: ./geolocator_floss_android/example
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
